@@ -1,0 +1,13 @@
+.card-pizza .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-pizza {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-pizza:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
